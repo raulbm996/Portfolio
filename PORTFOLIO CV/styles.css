@@ -1,0 +1,80 @@
+body {
+ background-color: rgb(8, 0, 42);
+}
+
+.header {
+    margin-top: 125px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 370px;
+   
+
+}
+
+title{
+    flex: 1;
+}
+
+.title1 {
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; 
+    font-size: 6.5rem;
+    font-weight: 300;
+    line-height: 1;
+    color: aliceblue;
+    
+}
+
+.title-description {
+    font-family: 'Inter', sans-serif; 
+    font-weight: 400;
+    font-size: 1rem;
+    color: aliceblue;
+    
+}
+
+.header-logo{
+    flex-shrink: 0;
+}
+
+.logo {
+    height: 300px;
+    display: block;
+}
+
+.middle{
+    background-color:aliceblue;
+}
+
+.second-title{
+    text-align: center;
+    font-family: 'Inter', sans-serif; /* Asegurar la fuente */
+
+}
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.project-column {
+    flex: 1;
+    min-width: 250px;
+    padding: 15px; 
+}
+.project-img {
+    height: 300px;
+    display: block;
+}
+
+.footer {
+    color: aliceblue;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
